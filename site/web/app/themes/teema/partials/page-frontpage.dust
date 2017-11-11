@@ -14,15 +14,15 @@
 
 	</div>
 
-	 <div class="news__info">
-        <span class="arrow-down animated bounce"><img src="{WP.template_url}/assets/images/arrow-down.png" /></div>
-        <div class="news__info__wrapper error hide">
+	 <div class="news__info" id="news-info">
+        <span class="arrow-down animated bounce" id="arrow"><img src="{WP.template_url}/assets/images/arrow-down.png" /></div>
+        <div class="news__info__wrapper error hide" id="news-error">
              <div class="row">
                 <div class="large-12 columns text-center"><h2>Tapahtui virhe, yritä uudelleen.</h2></div>
              </div>
         </div>
-        <div class="news__info__wrapper">
-            <h5 class="news__info__wrapper--date text-uppercase">Päivämäärä</h5>
+        <div class="news__info__wrapper" id="news-success">
+            <h5 class="news__info__wrapper--date text-uppercase" id="newsDate">Päivämäärä</h5>
             <h3 class="news__info__wrapper--title">Uutisen otsikko tulee tähän</h3>
             <span class="news__info__wrapper--url">Uutisen url</span>
             <div class="row align-center">
