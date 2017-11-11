@@ -1,0 +1,49 @@
+.news__list {
+
+    margin: 0 auto 5rem;
+
+    &__row {
+
+        background-color: $theme-color-white;
+        border-bottom: 1px solid $theme-color-lightgray;
+        padding: 1rem;
+
+        &--title {
+
+            display: block;
+            font-size: $theme-font-size * 1.2;
+
+        }
+
+        &--date {
+
+            color: lighten($theme-color-gray, 30);
+            font-style: italic;
+            margin-right: 5px;
+
+        }
+
+        &--user {
+
+            border: 1px solid $theme-color-default;
+            background-color: $theme-color-default;
+
+        }
+
+        &--checked {
+
+            border: 1px solid $theme-color-checked;
+            background-color: $theme-color-checked;
+
+        }
+
+        &--done {
+
+            border: 1px solid $theme-color-success;
+            background-color: $theme-color-success;
+
+        }
+
+    }
+
+}

@@ -58,3 +58,28 @@
 .expand {
     width: 100%;
 }
+
+.separator {
+
+    display: block;
+    max-width: 70rem;
+    height: .25rem;
+    background: $theme-color-default;
+    margin: 4rem auto;
+
+}
+
+.rounded {
+
+    border-radius: 100%;
+
+}
+
+.small-icon {
+
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 .3rem;
+
+}
