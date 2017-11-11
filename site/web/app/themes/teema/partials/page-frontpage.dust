@@ -2,36 +2,41 @@
 
 {#PageFrontpage.Content}
 
-    <div class="row align-center">
+    <div class="row news-importer align-center">
 
-        <div class="large-12 columns">
-            <h2 class="text-center">{@s s="Anna alle uutisen osoite" td="teema" /}</h1>
-            {@content}{/content}
-        </div>
-        <div class="large-6 columns form-elements">
+        <div class="large-8 columns form-elements">
             <form>
                 <div class="row">
-                    <input type="text" placeholder="anna osoite tähän">
+                    <input type="text" placeholder="Anna tähän uutisen osoite lisätäksesi sen listalle">
                 </div>
             </form>
         </div>
-        <div class="large-8 columns news__info">
-            <div class="news__info__wrapper">
-                <h5 class="news__info__wrapper--date text-uppercase">Päivämäärä</h5>
-                <h3 class="news__info__wrapper--title">Uutisen otsikko tulee tähän</h3>
-                <span class="news__info__wrapper--url">Uutisen url</span>
-                <div class="row">
-                    <div class="large-6 columns">
-                        Peruuta
+
+	</div>
+
+	 <div class="news__info">
+        <span class="arrow-down animated bounce"><img src="{WP.template_url}/assets/images/arrow-down.png" /></div>
+        <div class="news__info__wrapper error hide">
+             <div class="row">
+                <div class="large-12 columns text-center"><h2>Tapahtui virhe, yritä uudelleen.</h2></div>
+             </div>
+        </div>
+        <div class="news__info__wrapper">
+            <h5 class="news__info__wrapper--date text-uppercase">Päivämäärä</h5>
+            <h3 class="news__info__wrapper--title">Uutisen otsikko tulee tähän</h3>
+            <span class="news__info__wrapper--url">Uutisen url</span>
+            <div class="row align-center">
+                <div class="large-7 columns">
+                    <div class="large-6 columns text-center">
+                        <span class="button large">Peruuta</a>
                     </div>
-                    <div class="large-6 columns">
-                        Lisää
+                    <div class="large-6 columns text-center">
+                        <span class="button large success">Lähetä</a>
                     </div>
                 </div>
             </div>
         </div>
-
-	</div>
+    </div>
 
 {/PageFrontpage.Content}
 

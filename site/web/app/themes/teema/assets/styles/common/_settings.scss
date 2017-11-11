@@ -8,8 +8,13 @@ $theme-font-size: 1rem;
 $theme-font-family: 'Barlow Condensed', sans-serif;
 $theme-font-weight: 400;
 
-$theme-color-default: #f8f8f8;
+$theme-color-default: #d8303d;
 $theme-color-secondary: #9a9a9a;
+
+$theme-color-error: #8e0000;
+$theme-color-white: #fff;
+$theme-color-gray: #1E2122;
+$theme-color-lightgray: lighten($theme-color-gray, 50);
 
 /**
  * ---------------------------------
@@ -17,9 +22,11 @@ $theme-color-secondary: #9a9a9a;
  * ---------------------------------
  */
 
-html {
+html,
+body{
 
     font-size: $theme-font-size;
+    font-family: $theme-font-family !important;
 
 }
 
@@ -28,6 +35,7 @@ h2,
 h3,
 h4,
 h5 {
+    font-family: $theme-font-family !important;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
