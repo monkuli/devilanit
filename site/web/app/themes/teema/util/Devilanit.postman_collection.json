@@ -1,0 +1,133 @@
+{
+	"info": {
+		"name": "Devilanit",
+		"_postman_id": "6e9f50a3-6e27-3a36-f0f1-cbf10ff5ddf9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Blabbermouth",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"url\": \"http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic\"\n}"
+				},
+				"url": {
+					"raw": "http://lanihommat.dev/app/themes/teema/util/blabbermouthparser.php?url=http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic",
+					"protocol": "http",
+					"host": [
+						"lanihommat",
+						"dev"
+					],
+					"path": [
+						"app",
+						"themes",
+						"teema",
+						"util",
+						"blabbermouthparser.php"
+					],
+					"query": [
+						{
+							"key": "url",
+							"value": "http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Metalinjection",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"url\": \"http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic\"\n}"
+				},
+				"url": {
+					"raw": "http://lanihommat.dev/app/themes/teema/util/metalinjectionparser.php?url=http://www.metalinjection.net/this-is-just-a-tribute/original-faith-no-more-vocalist-chuck-mosley-dead-at-age-57",
+					"protocol": "http",
+					"host": [
+						"lanihommat",
+						"dev"
+					],
+					"path": [
+						"app",
+						"themes",
+						"teema",
+						"util",
+						"metalinjectionparser.php"
+					],
+					"query": [
+						{
+							"key": "url",
+							"value": "http://www.metalinjection.net/this-is-just-a-tribute/original-faith-no-more-vocalist-chuck-mosley-dead-at-age-57",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Metalsucks",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"url\": \"http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic\"\n}"
+				},
+				"url": {
+					"raw": "http://lanihommat.dev/app/themes/teema/util/metalsucksparser.php?url=http://www.metalsucks.net/2017/11/11/russian-teen-reportedly-uses-novembers-doom-music-in-murdersuicide-video/",
+					"protocol": "http",
+					"host": [
+						"lanihommat",
+						"dev"
+					],
+					"path": [
+						"app",
+						"themes",
+						"teema",
+						"util",
+						"metalsucksparser.php"
+					],
+					"query": [
+						{
+							"key": "url",
+							"value": "http://www.metalsucks.net/2017/11/11/russian-teen-reportedly-uses-novembers-doom-music-in-murdersuicide-video/",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
