@@ -1,10 +1,9 @@
 <?php
-
-libxml_use_internal_errors(true); // Disable DOMDocument warnings
-
 /*
  Return title and date from a news from Blabbermouth website
 */
+
+libxml_use_internal_errors(true); // Disable DOMDocument warnings
 
 class BlabbermouthParser {
 
