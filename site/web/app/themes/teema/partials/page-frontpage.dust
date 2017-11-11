@@ -2,8 +2,36 @@
 
 {#PageFrontpage.Content}
 
-	<h1>{post_title}</h1>
-	{@content}{/content}
+    <div class="row align-center">
+
+        <div class="large-12 columns">
+            <h2 class="text-center">{@s s="Anna alle uutisen osoite" td="teema" /}</h1>
+            {@content}{/content}
+        </div>
+        <div class="large-6 columns form-elements">
+            <form>
+                <div class="row">
+                    <input type="text" placeholder="anna osoite tähän">
+                </div>
+            </form>
+        </div>
+        <div class="large-8 columns news__info">
+            <div class="news__info__wrapper">
+                <h5 class="news__info__wrapper--date text-uppercase">Päivämäärä</h5>
+                <h3 class="news__info__wrapper--title">Uutisen otsikko tulee tähän</h3>
+                <span class="news__info__wrapper--url">Uutisen url</span>
+                <div class="row">
+                    <div class="large-6 columns">
+                        Peruuta
+                    </div>
+                    <div class="large-6 columns">
+                        Lisää
+                    </div>
+                </div>
+            </div>
+        </div>
+
+	</div>
 
 {/PageFrontpage.Content}
 

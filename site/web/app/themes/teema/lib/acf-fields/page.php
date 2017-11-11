@@ -6,7 +6,7 @@
 namespace Geniem\ACF;
 
 // Setting field group
-$field_group = new Group( 'Asetukset' );
+$field_group = new Group( '' );
 
 // Rules
 $rule_group_first = new RuleGroup();

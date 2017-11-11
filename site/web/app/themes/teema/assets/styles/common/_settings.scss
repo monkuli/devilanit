@@ -1,16 +1,38 @@
-/** 
+/**
  * ---------------------------------
  * ADD THEME SETTINGS HERE
  * ---------------------------------
  */
 
-/** 
+$theme-font-size: 1rem;
+$theme-font-family: 'Barlow Condensed', sans-serif;
+$theme-font-weight: 400;
+
+$theme-color-default: #f8f8f8;
+$theme-color-secondary: #9a9a9a;
+
+/**
  * ---------------------------------
  * ADD FOUNDATION SETTINGS HERE
  * ---------------------------------
  */
- 
-/** 
+
+html {
+
+    font-size: $theme-font-size;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+/**
  * -------------------------
  * PX TO REM CHEAT SHEET ( WITH 16px BASE )
  * -------------------------
@@ -53,5 +75,5 @@
  * 92px = 5.75rem
  * 96px = 6rem
  * 120px = 7.5rem
- * 128px = 8rem 
+ * 128px = 8rem
  */
