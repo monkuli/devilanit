@@ -1,6 +1,6 @@
 <?php
 /*
- Return title and date from a news from Blabbermouth website
+ Return title and date from a news from Loudwire website
 */
 
 libxml_use_internal_errors(true); // Disable DOMDocument warnings
@@ -25,7 +25,7 @@ class LoudwireParser {
 
 
 if(!isset($_GET["url"]) && empty($_GET["url"])) {
-	print_r("Give a blabbermouth news url as GET param (url).");
+	print_r("Give a Loudewire news url as GET param (url).");
 }
 else {
 
