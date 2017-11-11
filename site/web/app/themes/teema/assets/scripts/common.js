@@ -55,6 +55,20 @@ class Common {
      */
     docReady() {
 
+        $('#address').keyup(function(val){
+
+            var url = val.srcElement.value
+
+            $.get("http://lanihommat.dev/app/themes/teema/util/blabbermouthparser.php?url="+url, function(data, status){
+                if (status === 'success') {
+                    var obj = jQuery.parseJSON(data)
+                    $('#newsDate').text(obj.date)
+                    $('.news__info__wrapper--title').text(obj.title) 
+                    $('.news__info__wrapper--url').text(url) 
+                }
+            })
+        })
+
         this.cache();
         this.events();
         FastClick.attach( document.body );

@@ -22,7 +22,7 @@
              </div>
         </div>
         <div class="news__info__wrapper">
-            <h5 class="news__info__wrapper--date text-uppercase">Päivämäärä</h5>
+            <h5 class="news__info__wrapper--date text-uppercase" id="newsDate">Päivämäärä</h5>
             <h3 class="news__info__wrapper--title">Uutisen otsikko tulee tähän</h3>
             <span class="news__info__wrapper--url">Uutisen url</span>
             <div class="row align-center">
