@@ -7,7 +7,7 @@
         <div class="large-8 columns form-elements">
             <form>
                 <div class="row">
-                    <input type="text" placeholder="Anna tähän uutisen osoite lisätäksesi sen listalle">
+                    <input id="address" type="text" placeholder="Anna tähän uutisen osoite lisätäksesi sen listalle">
                 </div>
             </form>
         </div>
@@ -28,10 +28,10 @@
             <div class="row align-center">
                 <div class="large-7 columns">
                     <div class="large-6 columns text-center">
-                        <span class="button large">Peruuta</a>
+                        <span class="button expand large secondary">Peruuta</a>
                     </div>
                     <div class="large-6 columns text-center">
-                        <span class="button large success">Lähetä</a>
+                        <span class="button expand large success">Lähetä</a>
                     </div>
                 </div>
             </div>
