@@ -14,6 +14,8 @@ $includes = [
     'extras.php', // Custom functions
     'setup.php',  // Theme setup
     'images.php', // Image functions
+
+    'acf-fields/page.php', // Page fields
 ];
 
 // Loop through the includes and require them as part of the functions.

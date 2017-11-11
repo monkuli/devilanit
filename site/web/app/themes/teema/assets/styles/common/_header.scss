@@ -1,0 +1,96 @@
+/* -------------------------
+HEADER STYLES
+------------------------- */
+
+.news-importer {
+
+    padding: 4rem 4rem 0;
+
+}
+
+.form-elements {
+
+    background: url('../images/kaaos-logo.png') no-repeat center top;
+    background-size: 10rem 10rem;
+    padding-top: 11rem;
+
+    form {
+
+        margin: 2rem 0;
+
+        input {
+
+            font-family: $theme-font-family;
+            text-transform: uppercase;
+            width: 100%;
+            padding: 1.5rem 2rem;
+            border: 2px solid $theme-color-gray;
+            text-align: center;
+
+            &:focus {
+                outline-color: $theme-color-gray;
+            }
+
+        }
+
+    }
+}
+
+.news__info {
+
+    padding: 0;
+
+    &__wrapper {
+        background-color: $theme-color-gray;
+        padding: 5rem;
+        margin: 2rem 0;
+        color: $theme-color-white;
+
+        &--date {
+            margin: 0;
+            font-size: $theme-font-size * 1;
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        &--title {
+            margin: 0;
+            font-weight: 700;
+        }
+
+        &--url {
+
+            display: block;
+            font-size: $theme-font-size;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px dashed $theme-color-lightgray;
+
+        }
+
+    }
+
+}
+
+.error {
+
+    padding: 7rem 5rem;
+    background-color: $theme-color-error !important;
+
+}
+
+.arrow-down {
+
+    display: block;
+    padding: 1rem;
+    text-align: center;
+
+    img {
+
+        width: 3rem;
+        height: 3rem;
+
+    }
+
+
+}
