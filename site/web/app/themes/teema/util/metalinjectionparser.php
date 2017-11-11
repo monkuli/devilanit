@@ -52,7 +52,7 @@ class MetalinjectionParser {
 
 
 if(!isset($_GET["url"]) && empty($_GET["url"])) {
-	print_r("Give a metalsucks news url as GET param (url).");
+	print_r("Give a metalinjection news url as GET param (url).");
 }
 else {
 
