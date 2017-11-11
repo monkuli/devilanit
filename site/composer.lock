@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "689fd64f4c479d73ee149d1ccfe98e94",
+    "content-hash": "1ce383c914cac3dfd6f6f9f1dad70da1",
     "packages": [
         {
             "name": "composer/installers",
@@ -124,6 +124,41 @@
             "time": "2017-08-09T07:53:48+00:00"
         },
         {
+            "name": "devgeniem/acf-codifier",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devgeniem/acf-codifier.git",
+                "reference": "65161c439159245579450c7a113cb1ae3fcab37a"
+            },
+            "require-dev": {
+                "victorjonsson/markdowndocs": "^1.3"
+            },
+            "type": "wordpress-muplugin",
+            "autoload": {
+                "psr-4": {
+                    "Geniem\\ACF\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Miika Arponen",
+                    "email": "miika@geniem.com",
+                    "homepage": "http://geniem.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "ACF Codifier",
+            "keywords": [
+                "acf",
+                "wordpress"
+            ],
+            "time": "2017-10-31T11:08:14+00:00"
+        },
+        {
             "name": "devgeniem/dustpress",
             "version": "1.7.1",
             "source": {
@@ -222,56 +257,6 @@
                 "wordpress"
             ],
             "time": "2017-06-02T14:37:56+00:00"
-        },
-        {
-            "name": "devgeniem/dustpress-js",
-            "version": "2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/devgeniem/dustpress-js.git",
-                "reference": "b8ec0a77f2df955485af5d45d6c60bbba0bce1d7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/devgeniem/dustpress-js/zipball/b8ec0a77f2df955485af5d45d6c60bbba0bce1d7",
-                "reference": "b8ec0a77f2df955485af5d45d6c60bbba0bce1d7",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0.12",
-                "devgeniem/dustpress": ">=0.4.0",
-                "php": ">=5.4"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Ville Siltala",
-                    "email": "ville.siltala@geniem.com",
-                    "homepage": "http://geniem.com/",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Miika Arponen",
-                    "email": "miika.arponen@geniem.com",
-                    "homepage": "https://github.com/Nomafin"
-                }
-            ],
-            "description": "A DustPress plugin that provides a handy JavaScript library for using your DustPress Model methods on the front end.",
-            "keywords": [
-                "debugger",
-                "dustjs",
-                "dustpress",
-                "framework",
-                "javascript",
-                "plugin",
-                "theme",
-                "wordpress"
-            ],
-            "time": "2017-11-10T09:36:46+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -400,6 +385,49 @@
                 "wordpress"
             ],
             "time": "2017-05-31T18:42:33+00:00"
+        },
+        {
+            "name": "koodimonni/composer-dropin-installer",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
+                "reference": "b09dd53d7bcbe41afec63bd142b17575935e2349"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/b09dd53d7bcbe41afec63bd142b17575935e2349",
+                "reference": "b09dd53d7bcbe41afec63bd142b17575935e2349",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*-dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Koodimonni\\Composer\\Dropin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Koodimonni\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "Onni Hakala",
+                    "email": "onni@koodimonni.fi",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
+            "time": "2017-01-11T19:10:05+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -549,6 +577,19 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wp-premium/advanced-custom-fields-pro",
+            "version": "5.6.3",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:wp-premium/advanced-custom-fields-pro.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "advanced-custom-fields-pro"
+            }
         }
     ],
     "packages-dev": [
@@ -606,7 +647,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "devgeniem/acf-codifier": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
