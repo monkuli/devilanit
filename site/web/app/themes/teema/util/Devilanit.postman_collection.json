@@ -1,0 +1,49 @@
+{
+	"info": {
+		"name": "Devilanit",
+		"_postman_id": "6e9f50a3-6e27-3a36-f0f1-cbf10ff5ddf9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Blabbermouth",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"url\": \"http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic\"\n}"
+				},
+				"url": {
+					"raw": "http://lanihommat.dev/wp/wp-admin/blabbermouthparser.php?url=http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic",
+					"protocol": "http",
+					"host": [
+						"lanihommat",
+						"dev"
+					],
+					"path": [
+						"wp",
+						"wp-admin",
+						"blabbermouthparser.php"
+					],
+					"query": [
+						{
+							"key": "url",
+							"value": "http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
