@@ -71,6 +71,14 @@ HEADER STYLES
 
     }
 
+    a:link,
+    a:visited,
+    a:hover {
+
+        color: $theme-color-lightgray;
+
+    }
+
 }
 
 .error {

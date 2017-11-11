@@ -24,7 +24,7 @@
         <div class="news__info__wrapper" id="news-success">
             <h5 class="news__info__wrapper--date text-uppercase" id="newsDate">Päivämäärä</h5>
             <h3 class="news__info__wrapper--title">Uutisen otsikko tulee tähän</h3>
-            <span class="news__info__wrapper--url">Uutisen url</span>
+            <span class="news__info__wrapper--url"><a href="#">Uutisen url</a></span>
             <div class="row align-center">
                 <div class="large-7 columns">
                     <div class="large-6 columns text-center">
@@ -32,6 +32,28 @@
                     </div>
                     <div class="large-6 columns text-center">
                         <span class="button expand large success">Lähetä</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="news__list" id="news-list">
+        {! News list !}
+        <div class="row">
+            <div class="large-12 columns news__list__row">
+                <div class="row">
+                    <div class="large-8 columns">
+                        <span class="news__list__row--title" id="news-title">Tähän tulee otsikko</span>
+                        <span class="news__list__row--date" id="news-date">Päivämäärä</span>
+                        <span class="news__list__row--url" id="news-url"><a href="#">osoite</a></span>
+                    </div>
+                    <div class="large-4 columns text-right">
+                        <span class="news__list__row--user rounded small-icon" id="user-image"></span>
+                        <span class="news__list__row--checked rounded small-icon" id="user-checked"></span>
+                        <span class="news__list__row--done rounded small-icon" id="user-done"></span>
                     </div>
                 </div>
             </div>
