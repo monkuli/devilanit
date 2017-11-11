@@ -22,15 +22,17 @@
 					"raw": "{\n\"url\": \"http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic\"\n}"
 				},
 				"url": {
-					"raw": "http://lanihommat.dev/wp/wp-admin/blabbermouthparser.php?url=http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic",
+					"raw": "http://lanihommat.dev/app/themes/teema/util/blabbermouthparser.php?url=http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic",
 					"protocol": "http",
 					"host": [
 						"lanihommat",
 						"dev"
 					],
 					"path": [
-						"wp",
-						"wp-admin",
+						"app",
+						"themes",
+						"teema",
+						"util",
 						"blabbermouthparser.php"
 					],
 					"query": [
@@ -61,15 +63,17 @@
 					"raw": "{\n\"url\": \"http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic\"\n}"
 				},
 				"url": {
-					"raw": "http://lanihommat.dev/wp/wp-admin/metalinjectionparser.php?url=http://www.metalinjection.net/this-is-just-a-tribute/original-faith-no-more-vocalist-chuck-mosley-dead-at-age-57",
+					"raw": "http://lanihommat.dev/app/themes/teema/util/metalinjectionparser.php?url=http://www.metalinjection.net/this-is-just-a-tribute/original-faith-no-more-vocalist-chuck-mosley-dead-at-age-57",
 					"protocol": "http",
 					"host": [
 						"lanihommat",
 						"dev"
 					],
 					"path": [
-						"wp",
-						"wp-admin",
+						"app",
+						"themes",
+						"teema",
+						"util",
 						"metalinjectionparser.php"
 					],
 					"query": [
@@ -100,15 +104,17 @@
 					"raw": "{\n\"url\": \"http://www.blabbermouth.net/news/satyricon-drummer-says-response-to-deep-calleth-upon-deep-album-has-been-fantastic\"\n}"
 				},
 				"url": {
-					"raw": "http://lanihommat.dev/wp/wp-admin/metalsucksparser.php?url=http://www.metalsucks.net/2017/11/11/russian-teen-reportedly-uses-novembers-doom-music-in-murdersuicide-video/",
+					"raw": "http://lanihommat.dev/app/themes/teema/util/metalsucksparser.php?url=http://www.metalsucks.net/2017/11/11/russian-teen-reportedly-uses-novembers-doom-music-in-murdersuicide-video/",
 					"protocol": "http",
 					"host": [
 						"lanihommat",
 						"dev"
 					],
 					"path": [
-						"wp",
-						"wp-admin",
+						"app",
+						"themes",
+						"teema",
+						"util",
 						"metalsucksparser.php"
 					],
 					"query": [
